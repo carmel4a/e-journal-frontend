@@ -8,7 +8,7 @@ const inputRepeatPassword = document.getElementById('repeat_password');
 const inputEmail = document.getElementById('email');
 
 //btn
-const btn = document.querySelector('button');
+const btn = document.querySelector('.register__button');
 
 let error = [];
 
