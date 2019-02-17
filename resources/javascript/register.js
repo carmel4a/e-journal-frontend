@@ -2,10 +2,10 @@
 const form = document.querySelector('form');
 
 //inputs
-const inputLogin = document.querySelector('#login');
-const inputPassword = document.querySelector('#password');
-const inputRepeatPassword = document.querySelector('#repeat_password');
-const inputEmail = document.querySelector('#email');
+const inputLogin = document.getElementById('login');
+const inputPassword = document.getElementById('password');
+const inputRepeatPassword = document.getElementById('repeat_password');
+const inputEmail = document.getElementById('email');
 
 //btn
 const btn = document.querySelector('button');
