@@ -47,10 +47,6 @@ const sendForm = (e) =>{
         form.submit();
     }
 
-    else{
-
-    }
-
     error = [];
 }
 
