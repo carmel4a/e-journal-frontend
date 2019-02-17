@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&subset=latin-ext");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 100%;
+}
+
+body {
+  // font-size: 1.2vw;
+  font-family: "Open Sans", sans-serif;
+  background: #e5e5e5;
+  color: #878585;
+
+  .success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3.6rem;
+
+    .success__icon {
+      font-size: 6.4rem;
+      color: #6ac259;
+    }
+
+    .success__header {
+      margin: 2rem 0;
+    }
+
+    .success__desc {
+      text-align: center;
+    }
+  }
+
+  .success__button {
+    padding: 0.4rem 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 5rem;
+  }
+
+  .success__button--login {
+    color: #e5e5e5;
+    background-color: #33b5e5;
+  }
+
+  .success__button--cancel {
+    margin-top: 1.8rem;
+    background-color: transparent;
+    letter-spacing: 1.8px;
+    color: #878585;
+    font-weight: bold;
+  }
+}
