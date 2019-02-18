@@ -15,17 +15,17 @@
 <body>
         <h1 class="logo">E-dziennik <span class="icon fas fa-book"></span></h1>
         <div class="alert"></div>
-        <form class="register" action="">
+        <form class="register" action="{{.PageURL}}" method="POST">
             <h2 class="register__header">Zarejestruj się</h2>
-            <input id="login" class="register__input" type="text" placeholder="Login">
-            <input id="password" class="register__input" type="password" placeholder="Hasło">
-            <input id="repeat_password" class="register__input" type="password" placeholder="Powtórz hasło">
-            <input id="email" class="register__input" type="text" placeholder="E-mail">
+            <input id="login" name="login" class="register__input" type="text" placeholder="Login">
+            <input id="password" name="password" class="register__input" type="password" placeholder="Hasło">
+            <input id="repeat_password" name="repeat_password" class="register__input" type="password" placeholder="Powtórz hasło">
+            <input id="email" name="email" class="register__input" type="text" placeholder="E-mail">
             <div class=".register__captacha">
 
             </div>
             <button class="register__button" href="#">Zarejestruj</button>
-            <a class="register__login" href="login.html">Masz już Konto?</a>
+            <a class="register__login" href="/login">Masz już Konto?</a>
         </form>
 
         <script src="/resources/javascript/register.js"></script>
