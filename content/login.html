@@ -1,0 +1,12 @@
+{{define "content"}}
+
+    <form class="login" action="{{.PageURL}}" method="POST">
+        <h2 class="login__header">Podaj login i hasło</h2>
+        <input class="login__input" name="login" type="text" placeholder="Login">
+        <input class="login__input" name="password" type="password" placeholder="Hasło">
+        <button class="login__button">Zaloguj</button>
+        <a class="login__register" href="/register">Zarejestruj się</a>
+        <a class="login__reminder" href="/reminder">Zapomniałeś hasła?</a>
+      </form>
+
+{{end}}
